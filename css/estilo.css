@@ -1,4 +1,20 @@
+/*
+*La clase estilo1 realiza ..
+? Como se podria colocar un borde
+! No funciona en opera 3
+todo Falta 2 clases para las tablas
+*/
 .estilo1{
+    color: mediumseagreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px solid;
+}
+.estilo2{
+    color: mediumseagreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px solid;
+}
+.estilo3{
     color: mediumseagreen;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 3px solid;
