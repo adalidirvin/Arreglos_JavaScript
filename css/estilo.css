@@ -4,6 +4,11 @@
 ! No funciona en opera 3
 todo Falta 2 clases para las tablas
 */
+body{
+    background-image: url("/img/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-color: #F5CE0F;
+}
 .estilo1{
     color: mediumseagreen;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,3 +24,43 @@ todo Falta 2 clases para las tablas
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 3px solid;
 }
+
+.menu{
+    overflow: hidden;
+    position: fixed;
+    background-color: rgb(66, 66, 66);
+    width: 100%; 
+    /*
+    *El atributo FIXED, permite que un elemento se pocisione ajustandose a la ventana del navegador
+    */
+    top: 0;
+    left: 0;
+    padding: 15px;
+}
+.menu a{
+    color: white;
+    font-family: Roboto;
+    font-size: medium;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    transition-duration: 0.5s;
+}
+.menu a:hover{
+    font-weight: 800;
+    background-color: white;
+    color: #424242;
+    font-size: large;
+}
+
+.cuerpo{
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Raleway;
+}
+img{
+    vertical-align: middle;
+}
+
