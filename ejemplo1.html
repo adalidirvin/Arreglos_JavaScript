@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Operaciones</h1>
+    <label for="fdato1">Primer dato</label>
+    <input type="text" id="fdato1"><br>
+    <label for="fdato2">Segundo dato</label>
+    <input type="text" id="fdato2"><br>
+    <button onclick="saludar()">Ejecutar</button>
+    <p id="datos"></p>
+    <script>
+        function saludar(){
+            const persona=[];
+
+            valor = document.getElementById("fdato1").value;
+            valor = document.getElementById("fdato2").value;
+            if( isNaN(valor) && isNaN(valor2)) {
+                alert("Debe ingresar valores numericos")
+            }else{
+                persona[0]=document.getElementById("fdato1").value;
+                persona[1]=document.getElementById("fdato2").value;//?Para obtener un elemento de un arreglo, se puede hacer colocando su nombre seguido de [pocision].
+            //persona[2]=prompt("Cual es tu edad?");
+            //persona[3]="Fin";
+                document.getElementById("datos").innerHTML=persona;//?Para obtener todos los datos del arreglo, simplemente se coloca el nombre del arreglo.
+            }            
+        }
+    </script>
+</body>
+</html>
