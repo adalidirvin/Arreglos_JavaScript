@@ -41,3 +41,7 @@ function impares(){
     texto=texto+"</ol>";
     document.getElementById("resultado").innerHTML=texto;
 }
+
+var a=22;
+let b=22;
+console.log(a, " ", b);

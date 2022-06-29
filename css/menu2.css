@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+.barraI{
+    width: 90px;
+    background-color: rgb(252, 252, 252);
+    z-index: 2;
+    overflow: hidden;
+    position: fixed;
+}
+.barraI a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s;
+    color: #e17902;
+    font-size: 45px;
+    font-weight: bold;
+}
+.barraI a:hover{
+    background-color: #00a4b3;
+}
+.activo{
+    background-color: #585858;
+}

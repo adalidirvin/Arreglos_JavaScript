@@ -29,6 +29,10 @@ body{
     text-decoration: none;
     color: white;
 }
+.menu a:hover{
+    color: mediumseagreen;
+    background-color: white;
+}
 img{
     vertical-align: middle;
 }
@@ -37,12 +41,16 @@ img{
     margin-left: 0;
 }
 .autor{
-    background-color: beige;
+    background-image: linear-gradient(rgb(225, 243, 247),rgb(14, 179, 205));
     text-align: center;
     padding: 1%;
     z-index: 1;
     color: rgb(83, 83, 83);
-    left: 0;
+    left: 0;    
+}
+.autor:hover{
+    background-color: #9cb7cd;
+    color: white;
 }
 .otrodato{
     font-weight: 300;
@@ -65,5 +73,11 @@ img{
     font-size: xx-large;
     padding: 15px;
     font-weight: bolder;
-    left: 0;   
+    left: 0;  
+    border-left-style: solid;
+    border-left: 20px solid mediumseagreen; 
+    transition-duration: 1.5s;
+}
+.abc:hover{
+    border-left: 100px solid mediumseagreen; 
 }
